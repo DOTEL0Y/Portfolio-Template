@@ -1,144 +1,147 @@
-
 /* Attribute CSS*/
-header{
-    background-image: linear-gradient(180deg,rgb(22, 10, 181),rgb(29, 57, 239));
-    font-family: Poppins;
-    
+header {
+  background-image: linear-gradient(180deg, rgb(22, 10, 181), rgb(29, 57, 239));
+  font-family: Poppins;
 }
-img{
-
-    align-content: right;
-    width: 20px;
-    height: 20px;
+img {
+  align-content: right;
+  width: 20px;
+  height: 20px;
 }
-body{
-    background-color:rgb(29, 57, 239);
-    color: white;
+body {
+  background-color: rgb(29, 57, 239);
+  color: white;
 }
 /* Classes*/
 
 /*header */
-.page-header{
-    
-    top: 0px;
+.page-header {
+  top: 0px;
+  
 }
-.page-header h1{
-    padding-top: 45px;
-    /* margin-left: 50px; */
-    margin-inline-start: 50px;
-    margin-inline-end: 85%;
-    color: azure;
-    font-family: Dancing Script;
-    text-align: left;
+.page-header h1 {
+  padding-top: 45px;
+  /* margin-left: 50px; */
+  margin-inline-start: 50px;
+  margin-inline-end: 85%;
+  color: azure;
+  font-family: Dancing Script;
+  text-align: left;
 }
-.page-header h1:hover{
-    color: aqua;
-    
-    
+.page-header h1:hover {
+  color: aqua;
 }
-.page-header a{
-
-    margin-bottom: 25px;
-    margin-left: 10px;
-    margin-right: 15px;
-    text-decoration: none;
-    color: inherit;
+.page-header a {
+  margin-bottom: 25px;
+  margin-left: 10px;
+  margin-right: 15px;
+  text-decoration: none;
+  color: inherit;
 }
-.page-header a:hover{
-    color: aqua;
+.page-header a:hover {
+  color: aqua;
 }
-.page-header a:active{
-    color: aqua;
+.page-header a:active {
+  color: aqua;
 }
 
-.page-footer h5{
-    padding-top: 0px;
-    /* margin-left: 50px; */
-    margin-inline-start: 50px;
-    margin-inline-end: 80%;
-    color: aqua;
-    font-family: Poppin;
-    text-align: left;
+.page-footer h5 {
+  padding-top: 0px;
+  /* margin-left: 50px; */
+  margin-inline-start: 50px;
+  margin-inline-end: 80%;
+  color: aqua;
+  font-family: Poppin;
+  text-align: left;
 }
-.page-footer h1{
-    padding-top: 45px;
-    /* margin-left: 50px; */
-    margin-inline-start: 50px;
-    margin-inline-end: 80%;
-    color: azure;
-    font-family: Dancing Script;
-    text-align: left;
+.page-footer h1 {
+  padding-top: 45px;
+  /* margin-left: 50px; */
+  margin-inline-start: 50px;
+  margin-inline-end: 80%;
+  color: azure;
+  font-family: Dancing Script;
+  text-align: left;
 }
-.page-footer h1:hover{
-    color: aqua;
-    
+.page-footer h1:hover {
+  color: aqua;
 }
-.page-footer a{
-
-    margin-bottom: 25px;
-    margin-left: 10px;
-    margin-right: 15px;
-    text-decoration: none;
-    color: inherit;
+.page-footer a {
+  margin-bottom: 25px;
+  margin-left: 10px;
+  margin-right: 15px;
+  text-decoration: none;
+  color: inherit;
 }
-.page-footer a:hover{
-    color: aqua;
+.page-footer a:hover {
+  color: aqua;
 }
-.page-footer a:active{
-    color: aqua;
+.page-footer a:active {
+  color: aqua;
 }
 
 /*Section Project/About Me*/
-.section-bod h5{
-    padding-top: 0px;
-    /* margin-left: 50px; */
-    margin-inline-start: 50px;
-    margin-inline-end: 80%;
-    color: aqua;
-    font-family: Poppin;
-    text-align: left;
+.section-bod h5 img:nth-child(1):hover{
+    background: url("img/beefarm.png");
 }
-.section-bod h1{
-    padding-top: 45px;
-    /* margin-left: 50px; */
-    margin-inline-start: 50px;
-    margin-inline-end: 80%;
-    color: azure;
-    font-family: Dancing Script;
-    text-align: left;
+.section-bod h5 {
+  padding-top: 0px;
+  margin-left: 10vh;
+  gap: 10px;
+  /* margin-left: 50px; */
+  margin-inline-start: 50px;
+  margin-inline-end: 80%;
+  color: aqua;
+  font-family: Poppin;
+  text-align: left;
 }
-.section-bod h1:hover{
-    color: aqua;
-    
+.section-bod h1 {
+  padding-top: 45px;
+  /* margin-left: 50px; */
+  margin-inline-start: 50px;
+  margin-inline-end: 80%;
+  color: azure;
+  font-family: Dancing Script;
+  text-align: left;
 }
-.section-bod h3{
-    display:block;
-    font-family: Poppin;
-    width: 23%;
-    letter-spacing: .009vh;
-    font-size: 2.1vh;
+.section-bod h1:hover {
+  color: aqua;
 }
-.section-bod a{
+.section-bod h3 {
+  display: block;
+  font-family: Poppin;
+  width: 23%;
+  letter-spacing: 0.009vh;
+  font-size: 1em;
+}
+details p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color:white;
+    font-size: .5rem;
 
-    margin-bottom: 25px;
-    margin-left: 10px;
-    margin-right: 15px;
-    text-decoration: none;
-    color: inherit;
 }
-.section-bod a:hover{
-    color: aqua;
+.section-bod a {
+  margin-bottom: 25px;
+  margin-left: 10px;
+  margin-right: 15px;
+  text-decoration: none;
+  color: inherit;
 }
-.section-body a:active{
-    color: aqua;
+.section-bod a:hover {
+  color: aqua;
+}
+.section-body a:active {
+  color: aqua;
 }
 
 /*White textarea with social media icons*/
 .Contact {
+    position: relative;
+    top: -20vh;
     font-family: poppins;
-    text-shadow:  1px -1px azure;
+    text-shadow: 1px -1px azure;
     color: black;
-    background:azure;
+    background: azure;
     border-top-right-radius: 8%;
     border-top-left-radius: 2%;
     border-bottom-left-radius: 8%;
@@ -146,205 +149,222 @@ body{
     text-align: left;
     justify-content: center;
     margin-left: 15px;
-    
 }
-.Contact p{
-    padding-left: 5px;
-    padding-bottom: 10px;
-    text-align: left;
-    display: block;
+.Contact p {
+  padding-left: 5px;
+  padding-bottom: 10px;
+  text-align: left;
+  display: block;
 }
-.Contact ul{
-    list-style-image:url('D:\Work\Projects\AlphaPrimeTech\Portfolio Template\img\browse-svgrepo-com.svg');
+.Contact ul {
+  list-style-image: url("D:\Work\Projects\AlphaPrimeTech\Portfolio Template\img\browse-svgrepo-com.svg");
 }
-.Contact table{
-    padding-left: 5px;
-    text-align: left;
+.Contact table {
+  padding-left: 5px;
+  text-align: left;
 }
 /*Social Media Animations + ICONS*/
-.social-media{
+.social-media {
+  position: relative;
 
-    position: relative;
-
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-.social-media i{
-    color: rgb(29, 57, 239);
+.social-media i {
+  color: rgb(29, 57, 239);
 }
-.social-media a{
-    display: inline-flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    background: transparent;
-    border:2px solid rgb(29, 57, 239);
-    border-radius: 50%;
-    font-size: 20px;
-    text-decoration: none;
-    z-index: 1;
-    overflow: hidden;
+.social-media a {
+  display: inline-flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid rgb(29, 57, 239);
+  border-radius: 50%;
+  font-size: 1.2rem;
+  text-decoration: none;
+  z-index: 1;
+  overflow: hidden;
 }
 
-.social-media i:hover{
-    color: aqua;
+.social-media i:hover {
+  color: aqua;
 }
-.social-media a:hover::before{
-    width: 100%;
+.social-media a:hover::before {
+  width: 100%;
 }
-.social-media a::before{
-    content: '';
-    position: absolute;
-    background:rgb(29, 57, 239) ;
-    top:0;
-    left:0;
-    width: 0%;
-    height: 100%;
-    z-index: -1;
-    transition: .5s;
-    
+.social-media a::before {
+  content: "";
+  position: absolute;
+  background: rgb(29, 57, 239);
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  z-index: -1;
+  transition: 0.5s;
 }
 
 /* Classes*/
-.form-group{
-    margin-right: 10px;
+.form-group {
+  margin-right: 10px;
 }
-#name{
-    margin-top: 8px;
-    margin-right: 12px;
-    
-;
+#name {
+  margin-top: 8px;
+  margin-right: 12px;
 }
-.form-group input{
-    position: absolute;
-    right:110px;
-    width: 200px;
+.form-group input {
+  position: absolute;
+  right: 110px;
+  width: 200px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.form-group textarea{
+    resize: none;
+    position: relative;
+    top: 3vh;
+    right: 4.8vw;
+    width: 42.8vh;
+    margin: 1VH;
+
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
-}
-.footer{
-    background-image: linear-gradient(0deg,rgb(22, 10, 181),rgb(29, 57, 239));
-}
-.Javascrip-Header{
-    text-align: center;
-    border: 4px 4px 4px black;
-    border-radius: 45xp;
-
-}
-.Javascrip-Header h1:hover::after{
-    transition: .5s;
-    color: azure;
     
 }
-.Javascrip-Header h1:hover{
-    color: aqua;
-}
-.Javascrip-Header h2{
-    font-family: poppins;
-    letter-spacing: 2px;
-    text-shadow: .5px .5px rgba(240, 255, 255, 0.49);
-}
-.Javascrip-Header h1{
-    font-size: 5vh;
-    font-family: dancing script;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 40%;
-    margin-inline-end: 40%;
-}
-
-.bttn a{
+.form-group button{
     position: relative;
-    display: inline-flex;
-    justify-content: center;
-    font-weight: 600;
-    width: 150px;
-    height: 40px;
-    font-size: 20px;
-    border-style: solid;
-    background: transparent;
-    color: white;
-    border-color: rgb(22, 10, 181);
-
-    border-bottom-left-radius:  55px;
-    text-decoration: none;
-    z-index: 1;
-    transition: 2s;
-    overflow: hidden;
+    top: 3vh;
+    right: 22.5vw;
 }
-.bttn a::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    background: rgb(22, 10, 181);
-    z-index: -1;
-    transition: .5s;
+.footer {
+  background-image: linear-gradient(0deg, rgb(22, 10, 181), rgb(29, 57, 239));
 }
-
-.bttn a:hover::before{
-    overflow: hidden;
-    position: absolute;
-    width: 100%;
+.Javascrip-Header {
+  text-align: center;
+  border: 4px 4px 4px black;
+  border-radius: 45xp;
+}
+.Javascrip-Header h1:hover::after {
+  transition: 0.5s;
+  color: azure;
+}
+.Javascrip-Header h1:hover {
+  color: aqua;
+}
+.Javascrip-Header h2 {
+  font-family: poppins;
+  letter-spacing: 2px;
+  text-shadow: 0.5px 0.5px rgba(240, 255, 255, 0.49);
+}
+.Javascrip-Header h1 {
+  font-size: 5vh;
+  font-family: dancing script;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 40%;
+  margin-inline-end: 40%;
 }
 
-.footer-dis{
+.bttn a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  font-weight: 600;
+  width: 150px;
+  height: 40px;
+  font-size: 1.2rem;
+  border-style: solid;
+  background: transparent;
+  color: white;
+  border-color: rgb(22, 10, 181);
+
+  border-bottom-left-radius: 55px;
+  text-decoration: none;
+  z-index: 1;
+  transition: 2s;
+  overflow: hidden;
+}
+.bttn a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: rgb(22, 10, 181);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.bttn a:hover::before {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+.footer-dis {
+  text-align: center;
+  color: rgb(210, 122, 15);
+  background-color: azure;
+}
+/* ID containers*/
+
+#end{
     text-align: center;
-    color: rgb(210, 122, 15);
-    background-color: azure;
-}
+    font-size: .8rem;
 
+}
 /* ID --> Javascript variables */
-#im:hover{
-    color: rgb(238, 212, 12);
-    font-size: larger;
+#im:hover {
+  color: rgb(238, 212, 12);
+  font-size: 3rem;
 }
-#im{
-    text-align: center;
-    color: azure;
-    margin-bottom: 25px;
-    border-bottom-left-radius: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: larger;
+#im {
+  text-align: center;
+  color: azure;
+  margin-bottom: 25px;
+  border-bottom-left-radius: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
 }
-#iam:hover{
-    color: aqua;
-    font-size: larger;
+#iam:hover {
+  color: aqua;
+  font-size: 1.2em;
 }
-#iam{
-    color: azure;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
-    text-align: center;
-    margin-bottom: 25px;
-    border-bottom-left-radius:10px ;
+#iam {
+  color: azure;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 25px;
+  border-bottom-left-radius: 10px;
 }
 /* Animations*/
 .scroll_bar {
-    height: 10px;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-    background-color: lime;
-    width: 100%;
-    scale: 0 1;
-    transform-origin: left;
+  height: 10px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: lime;
+  width: 100%;
+  scale: 0 1;
+  transform-origin: left;
 
-
-    animation: scroll-watcher linear;
-    animation-timeline: scroll(y);
+  animation: scroll-watcher linear;
+  animation-timeline: scroll(y);
 }
 
-@keyframes scroll-watcher { 
-    to { scale: 1 1 ; }
+@keyframes scroll-watcher {
+  to {
+    scale: 1 1;
+  }
 }
 /* media quiry */
-@media screen and(min-width:400px){
-    .page-header {
-        display:inline-block;
-    }
+@media screen and(min-width:400px) {
+  .page-header {
+    display: inline-block;
+  }
 }
