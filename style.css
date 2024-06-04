@@ -1,0 +1,252 @@
+header{
+    background-image: linear-gradient(180deg,rgb(22, 10, 181),rgb(29, 57, 239));
+    font-family: Poppins;
+    
+}
+.page-header{
+    position: sticky;
+    top: 0px;
+}
+.page-header h1{
+    padding-top: 45px;
+    /* margin-left: 50px; */
+    margin-inline-start: 50px;
+    margin-inline-end: 85%;
+    color: azure;
+    font-family: Dancing Script;
+    text-align: left;
+}
+.page-header h1:hover{
+    color: aqua;
+    
+}
+.page-header a{
+
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: inherit;
+}
+.page-header a:hover{
+    color: aqua;
+}
+.page-header a:active{
+    color: aqua;
+}
+
+.page-footer h5{
+    padding-top: 0px;
+    /* margin-left: 50px; */
+    margin-inline-start: 50px;
+    margin-inline-end: 80%;
+    color: aqua;
+    font-family: Poppin;
+    text-align: left;
+}
+.page-footer h1{
+    padding-top: 45px;
+    /* margin-left: 50px; */
+    margin-inline-start: 50px;
+    margin-inline-end: 80%;
+    color: azure;
+    font-family: Dancing Script;
+    text-align: left;
+}
+.page-footer h1:hover{
+    color: aqua;
+    
+}
+.page-footer a{
+
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: inherit;
+}
+.page-footer a:hover{
+    color: aqua;
+}
+.page-footer a:active{
+    color: aqua;
+}
+.Contact {
+    font-family: poppins;
+    text-shadow:  1px -1px azure;
+    color: black;
+    background:linear-gradient(0,azure,lightblue);
+    border-top-right-radius: 8%;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 8%;
+    border-bottom-right-radius: 2%;
+    text-align: left;
+    justify-content: center;
+    margin-left: 15px;
+    
+}
+.Contact p{
+    padding-left: 5px;
+    padding-bottom: 10px;
+    text-align: left;
+    display: block;
+}
+.Contact ul{
+    list-style-image:url('D:\Work\Projects\AlphaPrimeTech\Portfolio Template\img\browse-svgrepo-com.svg');
+}
+.Contact table{
+    padding-left: 5px;
+    text-align: left;
+}
+.social-media{
+
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+}
+.social-media i{
+    color: azure;
+}
+.social-media a{
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border:2px solid azure;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.social-media i:hover{
+    color: rgb(29, 57, 239);
+}
+.social-media a:hover::before{
+    width: 100%;
+}
+.social-media a::before{
+    content: '';
+    position: absolute;
+    background:azure ;
+    top:0;
+    left:0;
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    transition: .5s;
+    
+}
+img{
+
+    align-content: right;
+    width: 20px;
+    height: 20px;
+}
+body{
+    background-color:rgb(29, 57, 239);
+    color: white;
+}
+.footer{
+    background-image: linear-gradient(0deg,rgb(22, 10, 181),rgb(29, 57, 239));
+}
+.section{
+    text-align: center;
+    border: 4px 4px 4px black;
+    border-radius: 45xp;
+
+}
+.section h1:hover::after{
+    transition: .5s;
+    color: azure;
+    
+}
+.section h1:hover{
+    color: aqua;
+}
+.section h1{
+    font-size: 5vh;
+    font-family: dancing script;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 40%;
+    margin-inline-end: 40%;
+}
+.bttn a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    font-weight: 600;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-style: solid;
+    background: transparent;
+    color: white;
+    border-color: rgb(22, 10, 181);
+
+    border-bottom-left-radius:  55px;
+    text-decoration: none;
+    z-index: 1;
+    transition: 2s;
+    overflow: hidden;
+}
+.bttn a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: rgb(22, 10, 181);
+    z-index: -1;
+    transition: .5s;
+}
+
+.bttn a:hover::before{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+.footer-dis{
+    text-align: center;
+    color: rgb(210, 122, 15);
+    background-color: azure;
+}
+
+/* Variable */
+#im:hover{
+    color: rgb(238, 212, 12);
+    font-size: larger;
+}
+#im{
+    text-align: center;
+    color: azure;
+    margin-bottom: 25px;
+    border-bottom-left-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+#iam:hover{
+    color: aqua;
+    font-size: larger;
+}
+#iam{
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 25px;
+    border-bottom-left-radius:10px ;
+}
+@media screen and(min-width:400px){
+    .page-header {
+        display:inline-block;
+    }
+}
