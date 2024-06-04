@@ -81,19 +81,18 @@ body {
 }
 
 /*Section Project/About Me*/
-.section-bod h5 img:nth-child(1):hover{
-    background: url("img/beefarm.png");
-}
+
 .section-bod h5 {
-  padding-top: 0px;
-  margin-left: 10vh;
-  gap: 10px;
-  /* margin-left: 50px; */
-  margin-inline-start: 50px;
-  margin-inline-end: 80%;
-  color: aqua;
-  font-family: Poppin;
-  text-align: left;
+    border: solid white;
+    padding-top: 0px;
+    margin-left: 10vh;
+    gap: 10px;
+    /* margin-left: 50px; */
+    margin-inline-start: 50px;
+    margin-inline-end: 80%;
+    color: aqua;
+    font-family: Poppin;
+    text-align: left;
 }
 .section-bod h1 {
   padding-top: 45px;
@@ -311,7 +310,33 @@ details p{
   background-color: azure;
 }
 /* ID containers*/
-
+#aboutme{
+    justify-content: center;
+    text-align: center;
+}
+#aboutme h4{
+    font-family: Dancing Script;
+}
+#aboutme img{
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 20vw;
+    height: 18vh;
+    padding-bottom: 10px;
+}
+#aboutme p{
+    border-bottom-left-radius: 10px;
+    color: black;
+    background-image: url(img/nbpage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    letter-spacing: .1vw;
+    line-height: 4vh;
+    font-family: caveat;
+}
 #end{
     text-align: center;
     font-size: .8rem;
