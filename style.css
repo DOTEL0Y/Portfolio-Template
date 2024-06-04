@@ -88,6 +88,51 @@ body{
     color: aqua;
 }
 
+/*Section Project/About Me*/
+.section-bod h5{
+    padding-top: 0px;
+    /* margin-left: 50px; */
+    margin-inline-start: 50px;
+    margin-inline-end: 80%;
+    color: aqua;
+    font-family: Poppin;
+    text-align: left;
+}
+.section-bod h1{
+    padding-top: 45px;
+    /* margin-left: 50px; */
+    margin-inline-start: 50px;
+    margin-inline-end: 80%;
+    color: azure;
+    font-family: Dancing Script;
+    text-align: left;
+}
+.section-bod h1:hover{
+    color: aqua;
+    
+}
+.section-bod h3{
+    display:block;
+    font-family: Poppin;
+    width: 23%;
+    letter-spacing: .009vh;
+    font-size: 2.1vh;
+}
+.section-bod a{
+
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: inherit;
+}
+.section-bod a:hover{
+    color: aqua;
+}
+.section-body a:active{
+    color: aqua;
+}
+
 /*White textarea with social media icons*/
 .Contact {
     font-family: poppins;
